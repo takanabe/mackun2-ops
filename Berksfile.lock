@@ -1,4 +1,6 @@
 DEPENDENCIES
+  apt
+  build-essential
   git
     git: git://github.com/jssjr/git.git
     revision: 2d6a53a48d4a0fdd5fb5fbed1d8e2d19e9fbc79c

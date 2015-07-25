@@ -1,0 +1,10 @@
+{
+    "name": "local",
+    "json_class": "Chef::Role",
+    "description": "",
+    "chef_type": "role",
+    "run_list": [
+      "apt",
+      "build-essential"
+    ]
+}

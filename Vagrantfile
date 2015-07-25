@@ -8,9 +8,12 @@ Vagrant.configure(2) do |config|
   # VirtualBox VM name setting
   config.vm.provider "virtualbox" do |v|
     v.name = "local.mackun2"
+    v.cpus = 2
+    v.memory = 2048
   end
 
   config.vm.network "private_network", ip: "192.168.33.10"
+  config.vm.network :forwarded_port, guest: 3306, host: 3306
 
   config.vm.provision "chef_solo" do |chef|
     chef.cookbooks_path = ["cookbooks", "site-cookbooks"]

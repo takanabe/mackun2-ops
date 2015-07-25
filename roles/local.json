@@ -4,7 +4,7 @@
     "description": "",
     "chef_type": "role",
     "run_list": [
-        "recipe[mysql::server]"
+      "mackun2-local"
     ],
     "mysql": {
         "version": "5.6",
