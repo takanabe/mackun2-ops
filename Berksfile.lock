@@ -1,0 +1,48 @@
+DEPENDENCIES
+  git
+    git: git://github.com/jssjr/git.git
+    revision: 2d6a53a48d4a0fdd5fb5fbed1d8e2d19e9fbc79c
+  hostsfile
+  mysql
+  openssh
+  rbenv (~> 1.7.1)
+  ruby_build
+  selinux
+  sudo
+
+GRAPH
+  apt (2.7.0)
+  build-essential (2.2.3)
+  chef_handler (1.2.0)
+  dmg (2.2.2)
+  git (4.3.1)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  hostsfile (2.4.5)
+  iptables (1.0.0)
+  mysql (6.1.0)
+    smf (>= 0.0.0)
+    yum-mysql-community (>= 0.0.0)
+  ohai (2.0.1)
+  openssh (1.5.2)
+    iptables (>= 0.0.0)
+  rbac (1.0.3)
+  rbenv (1.7.1)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+    ohai (>= 1.1)
+  ruby_build (0.8.0)
+  selinux (0.9.0)
+  smf (2.2.7)
+    rbac (>= 1.0.1)
+  sudo (2.7.2)
+  windows (1.37.0)
+    chef_handler (>= 0.0.0)
+  yum (3.6.3)
+  yum-epel (0.6.2)
+    yum (~> 3.2)
+  yum-mysql-community (0.1.17)
+    yum (>= 3.0)
