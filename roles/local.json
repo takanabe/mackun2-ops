@@ -1,0 +1,23 @@
+{
+    "name": "local",
+    "json_class": "Chef::Role",
+    "description": "",
+    "chef_type": "role",
+    "run_list": [
+        "recipe[mysql::server]"
+    ],
+    "mysql": {
+        "version": "5.6",
+        "port": "3306",
+        "server_root_password": "root",
+        "remote_test_database": true
+    },
+    "default_attributes": {
+        "mysql": {
+            "version": "5.6",
+            "port": "3306",
+            "server_root_password": "root",
+            "remote_test_database": true
+        }
+    }
+}

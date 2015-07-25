@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "role[local]"
+  ],
+  "fqdn": "local.mackun2",
+  "environment": "local"
+}
