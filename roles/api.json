@@ -1,0 +1,14 @@
+{
+    "name": "api",
+    "default_attributes": {
+        "rbenv": {
+            "group_users": [ "ec2-user" ]
+        }
+    },
+    "json_class": "Chef::Role",
+    "description": "",
+    "chef_type": "role",
+    "run_list": [
+        "recipe[mackun2-api::default]"
+    ]
+}

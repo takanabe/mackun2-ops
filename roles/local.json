@@ -4,6 +4,8 @@
     "description": "",
     "chef_type": "role",
     "run_list": [
+      "recipe[mysql::server]",
+      "recipe[mysql::client]",
       "mackun2-local"
     ],
     "mysql": {
@@ -18,6 +20,16 @@
             "port": "3306",
             "server_root_password": "root",
             "remote_test_database": true
+        },
+        "rbenv": {
+          "global": "2.2.2",
+          "rubies": ["2.2.2"],
+          "gems": {
+            "2.1.2": [
+              {"name": "bundler"},
+              {"name": "rails", "version": "4.2.3"}
+            ]
+          }
         }
     }
 }
