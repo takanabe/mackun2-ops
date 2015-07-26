@@ -1,0 +1,4 @@
+.DS_Store
+.vagrant
+/cookbooks/
+encrypted_data_bag_secret

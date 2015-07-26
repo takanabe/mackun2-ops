@@ -1,0 +1,12 @@
+{
+    "name": "common",
+    "json_class": "Chef::Role",
+    "description": "",
+    "chef_type": "role",
+    "run_list": [
+      "apt",
+      "build-essential",
+      "ssh_known_hosts",
+      "recipe[mackun2-git::default]"
+    ]
+}

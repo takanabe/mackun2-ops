@@ -1,0 +1,12 @@
+{
+  "name": "local",
+  "json_class": "Chef::Environment",
+  "default_attributes": {
+    "rails": {
+      "env": "local"
+    },
+    "mackun2-nginx": {
+      "environment_domain_prefix": "local-"
+    }
+  }
+}
